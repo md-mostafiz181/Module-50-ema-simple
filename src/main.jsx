@@ -9,11 +9,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Header from './components/Header/Header.jsx';
+import Main from './components/Layout/Main.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header></Header>,
+    element: <Main></Main>,
+
   },
 ]);
 
